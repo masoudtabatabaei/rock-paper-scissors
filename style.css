@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    border: none;
+    height: 40px;
+    line-height: 40px;
+    min-width: 85px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #03ad04;
+    color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+}
+
+.game {
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score p {
+    margin: 10px 0;
+}
+
+.score > div {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    opacity: 0;
+}
+
+.intro .btn {
+    margin: 4rem 0 3rem;
+}
+
+.intro button {
+    margin: 15px 0;
+}
+
+.match .hands {
+    display: flex;
+    justify-content: space-between;
+}
+
+.match img {
+    max-width: 200px;
+}
+
+.match .options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.match .player-hand {
+    transform: scaleX(-1);
+}

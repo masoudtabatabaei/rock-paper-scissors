@@ -8,7 +8,38 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
-    
+    <section class="game">
+        <div class="container">
+            <div class="score">
+                <div class="player-score">
+                    <h2>Player</h2>
+                    <p>0</p>
+                </div>
+                <div class="computer-score">
+                    <h2>Computer</h2>
+                    <p>0</p>
+                </div>
+            </div>
+
+            <div class="intro">
+                <h1 class="text-center">Rock Paper and Scissors</h1>
+                <button class="btn">Let's Play</button>
+            </div>
+
+            <div class="match">
+                <h2 class="winner text-center">Choose an option:</h2>
+                <div class="hands">
+                    <img class="player-hand" src="./assets/img/rock.png" alt="">
+                    <img class="computer-hand" src="./assets/img/rock.png" alt="">
+                </div>
+                <div class="options">
+                    <button class="btn rock">Rock</button>
+                    <button class="btn paper">Paper</button>
+                    <button class="btn scissors">Scissors</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- scripts -->
     <script src='app.js'></script>
 </body>
