@@ -8,11 +8,15 @@
     border: none;
     height: 40px;
     line-height: 40px;
-    min-width: 85px;
-    border-radius: 6px;
+    min-width: 100px;
+    border-radius: 4px;
     cursor: pointer;
     background-color: #03ad04;
     color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #0c8a0d;
 }
 
 .text-center {
