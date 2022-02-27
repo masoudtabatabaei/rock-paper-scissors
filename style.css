@@ -53,6 +53,7 @@
 
 .intro {
     text-align: center;
+    transition: opacity 0.4s ease 0.4s;
 }
 
 .intro .btn {
@@ -61,6 +62,9 @@
 
 .intro button {
     margin: 15px 0;
+}
+.match {
+    transition: opacity 0.4s ease 0.4s;
 }
 
 .match .hands {
