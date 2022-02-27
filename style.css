@@ -53,7 +53,6 @@
 
 .intro {
     text-align: center;
-    opacity: 0;
 }
 
 .intro .btn {
@@ -80,4 +79,14 @@
 
 .match .player-hand {
     transform: scaleX(-1);
+}
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
 }
