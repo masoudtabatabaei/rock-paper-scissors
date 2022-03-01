@@ -4,9 +4,9 @@ const game = () => {
 
     // start the game
     const startGame = () => {
-        let playBtn = document.querySelector(".intro .btn");
-        let match = document.querySelector(".match");
-        let introScreen = document.querySelector(".intro");
+        const playBtn = document.querySelector(".intro .btn");
+        const match = document.querySelector(".match");
+        const introScreen = document.querySelector(".intro");
 
         playBtn.addEventListener("click" , () => {
             introScreen.classList.add("fadeOut")
